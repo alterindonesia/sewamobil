@@ -1,0 +1,33 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Dashboard extends CI_Controller {
+
+    function __construct()
+    {
+        parent::__construct();
+         if(!$this->session->userdata('login_admin')){
+            redirect(base_url('admin/login'));
+        }
+    }
+
+    function index(){
+
+        // $session = $this->session->userdata('email');
+        // print_r($session);die();
+        $data['active']     = 'dash';
+        $data['judul_1']    = 'Dashboard';
+        $data['judul_2']    = 'Selamat Datang';
+        $data['page']       = 'v_dashboard';
+        $data['menu']       = $this->Menus->generateMenu();
+        $data['breadcumbs'] = array(
+            array(
+                'nama'=>'Dashboard',
+                'icon'=>'fa fa-dashboard',
+                'url'=>'admin/dashboard'
+            ),
+        );
+
+        $this->load->view('admin/'.$this->session->userdata('theme').'/v_index',$data);
+    }
+}
