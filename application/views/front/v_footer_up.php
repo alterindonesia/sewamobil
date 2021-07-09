@@ -2,7 +2,7 @@
 <div class="footer">
 	<div class="footer_agile_inner_info_w3l">
 		<div class="col-md-4 footer-left">
-			<h2><a href="<?php echo base_url() ?>"><span>S</span>ewa Mobil</a></h2>
+			<h2><a href="<?php echo base_url() ?>"><span>K</span>irani Rental</a></h2>
 			<p></p>
 			<ul class="social-nav model-3d-0 footer-social w3_agile_social two">
 				<li><a href="#" class="facebook">
@@ -21,11 +21,11 @@
 				<div class="col-md-6 sign-gd" style="display: none">
 					<h4><span>Categories</span> </h4>
 					<ul>
-						<li><a href="<?php echo base_url() ?>">Black Colours</a></li>
+						<li><a href="<?php echo base_url() ?>"></a></li>
 				</div>
 				
 				<div class="col-md-6 sign-gd-two">
-					<h4>Store <span>Information</span></h4>
+					<h4>Office <span>Information</span></h4>
 					<div class="w3-address">
 						<div class="w3-address-grid">
 							<div class="w3-address-left">
@@ -43,7 +43,7 @@
 							</div>
 							<div class="w3-address-right">
 								<h6>Email Address</h6>
-								<p>Email :<a href="mailto:sewa@mail.com"> sewa@mail.com</a></p>
+								<p>Email :<a href="mailto:kiranirental@gmail.com"> kiranirental@gmail.com</a></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 		<div class="clearfix"></div>
-		<p class="copy-right">&copy 2021 Sewa Mobil. All rights reserved </p>
+		<p class="copy-right">&copy 2021 Kirani Rental. All rights reserved </p>
 	</div>
 </div>
 <!-- //footer -->

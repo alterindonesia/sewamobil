@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <base href="<?php echo base_url('assets/front') ?>/">
 <head>
-<title>Sewa Mobil</title>
+<title>Kirani Rental</title>
 <!--/tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
